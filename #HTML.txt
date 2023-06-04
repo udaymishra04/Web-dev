@@ -1,0 +1,208 @@
+#HTML
+- HTML is the standard markup language for creating web pages.
+- It stands for Hyper Text Markup Language.
+- It describes the structure of web page
+- It consits of a series of elements
+- HTML elements tell the browser how to display the content
+
+The <!Doctype> declaration
+- It represents the document type, and helps browsers to display web pages correctly
+- Not case sensitive
+- This declaration is for HTML5
+
+HTML Headings
+- HTML headings are defined with the <h1> to <h6> tags.
+- <h1> defines the most importand heading. <h6> defines the least important heading.
+- Search engines use the headings to index the structure and content of your web pages.
+- Users often skim a page by its headings. It is important to use headings to show the document structure.
+
+HTML paragraphs
+- HTML paragraphs are defined with the <p> tag
+- Always starts on a new line, and browsers automatically add some white space(a margin) before and after a paragraph
+
+HTML links
+- Defined with <a> tag
+<a href="https://www.google.com">GOogle</a>
+
+HTML images
+- <img src ="w3schools.jpg" alt="w3schools.com" width="104" height="142">
+- The required alt attribute specifies an alternate text for an image, if the image for  some reason cannot be displayed.This can be due to a slow connection, or an error in the src attribute, or if the user uses a screen reader.
+- We can add loading attribute in img tag and set is to "lazy" (eager value is default value for loading attribute) which will load the image only when the image is about to display. For example when we open the page there is content on the bottom, then if you use this attribute then the image will not load in the beggining which will increase the loading time of website
+- The src attribute specifies the path to the image to be displayed:
+- There are two ways to specify the URL in the src attribute:
+
+	1. Absolute URL - Links to an external image that is hosted on another website. 	Example: src="https://www.w3schools.com/images/img_girl.jpg".
+
+	Notes: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.
+
+	2. Relative URL - Links to an image that is hosted within the website. Here, the URL 	does not include the domain name. If the URL begins without a slash, it will be 	relative to the current page. Example: src="img_girl.jpg". If the URL begins with a 	slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".
+
+- There is one another type of link where we redirect the user on the same page, like when you are at the bottom of the page and you click back to top it will redirect to the top of the page. We do this by using section tag.
+
+	Tip: It is almost always best to use relative URLs. They will not break if you change 	domain.
+
+<html> element is the root element and it defines the whole HTML document
+<head> element holds the meta information of the document
+<body> element holds the document's body
+
+Some HTML elements will display correctly, even if you forget the end tag, however never rely
+on this! Unexpected results and errors may occur if you forget the end tag!
+
+HTML elements with no content are called empty elements. Eg: <br>, <hr>, etc.
+
+Attributes
+- All HTML elements can have attributes
+- Attributes provide additional information about elements
+- Attributes are always specified in the start tag
+- The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the      link goes to:
+
+The lang Attribute
+- This is meant to assist search engines and browsers
+<!DOCTYPE html>
+<html lang="en">
+<body>
+...
+</body>
+</html>
+
+Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.
+<html lang="en-US">
+
+The title Attribute
+- The title attribute defines some extra information about an element
+- The value of the title attribute will be displayed as a tooltip when you mouse over the element.
+
+HTML Display
+- You cannot be sure how HTML will be displayed.
+- Large or small screens, and resized windows will create different results.
+- With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.
+- The browser will automatically remove any extra spaces and lines when the page is displayed:
+
+HTML horizontal rules
+- <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+- It is an empty tag
+
+HTML Line Breaks
+- Use <br> if you want a line break (a new line) without starting a new paragraph:
+
+HTML <pre> element
+- The HTML <pre> element defines preformatted text.
+- The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+
+The HTML Style attribute
+- <tagname style="property:value;">
+- The property is a CSS property. The value is a CSS value.
+Use the style attribute for styling HTML elements
+Use background-color for background color
+Use color for text colors
+Use font-family for text fonts
+Use font-size for text sizes
+Use text-align for text alignment
+
+HTML <b> and <strong> elements
+- The html <b> element defines bold text, without any extra importance
+- The HTML <strong> element defines text with strong importance. The content inside is typically displayed in bold.
+
+HTML <i> and <em> Elements
+- The HTML <i> element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.
+- The HTML <em> element defines emphasized text. The content inside is typically displayed in italic.
+
+HTML <mark> Element
+- The HTML <mark> element defines text that should be marked or highlighted:
+
+HTML <del> Element
+- The HTML <del> element defines text that has been deleted from a document. Browsers will usually strike a line through deleted text
+
+HTML <ins> Element
+- The HTML <ins> element defines a text that has been inserted into a document. Browsers will usually underline inserted text:
+
+HTML <sub> Element
+- The HTML <sub> element defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O
+
+HTML <sup> Element
+- The HTML <sup> element defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1]:
+
+HTML <blockquote> for Quotations
+- The HTML <blockquote> element defines a section that is quoted from another source.
+- Browsers usually indent <blockquote> elements.
+
+<q> tag defines short quotation. Browser normally insert quotation mark around the quotation.
+<abbr> tag defines an abbreviation or an acronym, like "HTML","CSS",etc. Marking abbreviations can give useful information to browsers, translation systems and search-engines.
+
+<address> tag defiens the contact information for the author/owner of the document or an article. Information can be email, URL, physical address, etc.
+
+RGB color values
+- In HTML, a color can be specified as an RGB value, using this formula: 
+rgb(red,green,blue)
+- Each parameter (red, green, and blue) defines the intensity of the color with a value between 0 and 255.
+- This means that there are 256 x 256 x 256 = 16777216 possible colors!
+For red (255,0,0)
+for green (0,255,0)
+for blue (0,0,255)
+
+Shades of grey are often defined using equal values for all three parameters
+
+RGBA color values
+- It is an extension of RGB values with an alpha channel- which specifies the opacity for a color
+rgba(red,green,blue,alpha)
+- Value of aplha parameter vaies from 0.0(fully transparent) to 1.0(not transparent at all)
+
+HEX color values
+- Color can be specified using a hexadecimal value in the form #rrggbb
+- value varies from 00 to ff
+
+Using CSS in HTML
+- Inline: by using the style attribute inside HTML elements
+- Internal: by using the <style> element in the <head> section
+- External: by using the <link> element to link to an external CSS file.
+
+An inline CSS is used to apply a unique style to a single HTML element.
+- <h1 style="color:blue;">A Blue Heading</h1>
+
+An internal CSS is defined in the <head> section of an HTML page, within a <style> element.
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+An external style sheet is used to define the style for many HTML pages.
+To use an external style sheet, add a link to it in the <head> section of each HTML page:
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+HTML Links - The target Attribute
+- By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
+- The target attribute specifies where to open the linked document.
+- The target attribute can have one of the following values:
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame
+_top - Opens the document in the full body of the window
+
+- As we know image tag is already available in HTML to display the pictures on web pages. But HTML 5 <figure> tag is used to handle the group of diagrams, photos, code listing etc. with some embedded content. You can also add a caption for the photo with the help of <figcaption> tag.
+
+- A semantic is a tag which has some meaning for the content like header, article,figure and some non semantic element are div, span.
+- There are three major semantic tag header, main and footer.
+- Header can be used multiple times, main should be used only once and footer can also be used multiple times in a website.
+
+Table
+- <table> tag is used to write a table
+- <th> is used to write a header for a table
+- <tr> is used to create a row for a table
+- <td> is used to write data in table
+- We can also give caption to the table which will help assistive technology to read table
+- We can use <thead>, <tbody> and <tfooter> to give out table a semantic meaning.
+

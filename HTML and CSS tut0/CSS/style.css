@@ -1,0 +1,57 @@
+/* .title{
+    color: red;
+}
+h2:hover{
+    color: red;
+}
+.subtitle{
+    color: blue;
+}
+#services{
+    color: green;
+}
+td{
+    color: blue;
+}
+li:only-child{
+    color: purple;
+}
+.link:link{
+    color: blue;
+}
+.link:visited{
+    color: red;
+}
+h2 + a{
+    color: blue;
+}
+textarea ~ button{
+    button that comes after a textarea and belong to the same parent then colored
+    color: purple;
+}
+ul > li{
+    applies when the list is directly related to ul or when list is child of ul
+    color: blue;
+}
+ul li{
+    applies when the list is the descendent of ul
+    color: green;
+}
+img[src^="../img/"]{
+    ^= means that the path should start with the given string
+    $= means that the path should end with the given string
+    *= means that the path should contain the given string anywhere in it's path
+    border: 10px solid black;
+}
+h2[class~=article]{
+    background: green;
+} */
+body{
+    background: rgb(214, 240, 180);
+}
+.title{
+    color: rgb(87, 194, 248);
+}
+.subtitle{
+    color:rgb(108, 199, 245);
+}

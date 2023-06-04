@@ -1,0 +1,38 @@
+#CSS
+- CSS stands for cascading style sheet.
+- It is a language used to give styling and design to websites.
+- It is the standard for styling websites, used by most/all websites across the globe.
+- It usually goes hand-in-hand with HTML, while CSS3(the latest version) brings lots of new features to the table.
+
+Reasons to use CSS:
+- Styling
+- Layout and Design
+- Animations
+- Font changes
+- Orgarnizations
+- Grid Systems
+
+- CSS selectors can be used to address parts of the page to syle and use.
+- HTML elements are given class and ID attributes, which are then used to manipulate in CSS.
+
+What is a Selector
+- Selectors are ways of grabbing and manipulating HTML.
+- There are many different ways to select, however they all turn out the same way.
+- Different selectors have different applications.
+ 
+Types:
+1. The element selector
+- You can select entire elements without any special characters.
+- This applies to all the elements with that tag on the page.
+- It ranks on the bottom of the specificity scale.
+
+2. The class selector
+- This is used to select elements with a certain class name. 
+- Can be used on any and all elements with that class.
+- Can be used multiple times, and is selet with the .symbol.
+
+3. The ID selector
+- This is used to select elements with a certain ID name.
+- Can be used on any and all elements with that ID
+- Unlike classes, it can only be used on one elements at a time, and is selected with the # symbol. However, it is possible to use more than once.
+
